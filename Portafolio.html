@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Manuel Pérez Jurado">
+    <meta name="description" content="Portafolio de desarrollo web de Manuel Pérez Jurado">
+    <meta name="keywords" content="HTML, CSS, Javascript, React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!--Titulo-->
+    <title> ManuelPJ | Desarrollador Web Front-End </title>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="images/Hypers.png">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="images/Hypers.png" width="50" alt="Logo página web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-item-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- Sección Hero (datos acerca de mí persona) -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-img-perfil rounded-circle" src="images/Foto publica.jpeg" alt="Imagen personal">
+        <h1>¡Buenas! Soy Manuel Pérez Jurado</h1>
+        <h2>Desarrollador web FullStack</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-img img-fluid" src="images/hero-inferior.svg" width="700px" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!--About me-->
+   
+    <section id="sobre-mi" class="about-me seccion-oscura">
+      <div class="container row">
+        <h2 class="section-title about-me-title texto-blanco">Conóceme un poco</h2>
+        <div class="columna col-12 col-md-4">
+          <p class="section-text">¡Hola! Me llamo Manuel Pérez Jurado. Tengo 22 años y soy del sur de Córdoba, España.</p>
+        </div>
+        <div class="columna col-12 col-md-4">
+          <p class="section-text">Desde que tengo uso de razón he tenido un ordenador entre las manos, esto gracias a mi padre, el cual también es un apasionado de la tecnología y el desarrollo de esta, la cual me ha ido contagiando con el paso del tiempo.</p>
+        </div>
+        <div class="columna col-12 col-md-4">
+          <p class="section-text">Soy un apasionado de los videojuegos y la música. Gracias a los videojuegos, he sentido una compatibilidad en los estudios de programación, ya que mi objetivo, es ser algún día desarrollador de videojuegos. Y gracias a la música, he sabido comprender el tiempo y dedicación que tienes que dedicar para que un proyecto personal sea único y distintivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- desarrollo web -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-pc-display"></i>
+            <p class="experiencia-title">Desarrollador web</p>
+            <p>Para ser desarrollador FullStack, decidí centrar mis estudios en el lenguaje de JavaScript y sus diferentes tecnologías. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+              <span class="badge text-bg-primary">SASS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Redux</span>
+              <span class="badge text-bg-primary">NodeJs</span>
+              <span class="badge text-bg-primary">Express</span>
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">Sequelize</span>
+              <span class="badge text-bg-primary">PostgreSQL</span>
+            </div>
+          </div >
+          <!-- Estudios -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-title">Estudios</p>
+            <p>Durante medio año estuve aprendiendo a programar de forma autodidacta. Después del reto que esto supuso, decidí inscribirme en el bootcamp de SoyHenry para avanzar más profundamente en el lenguaje de JavaScript y Tecnologías como React, Redux, NodeJs y Express para el desarrollo web.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Autodidacta</span>
+              <span class="badge text-bg-primary">Henry</span>
+              <span class="badge text-bg-primary">FreeCodeCamp</span>
+              <span class="badge text-bg-primary">Udemy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="section-title texto-blanco">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de los proyectos en los que he estado trabajando.</h3>
+      
+    <!--Galería de proyectos-->
+
+    <!--Proyecto 1-->
+
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto 1-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto-countries.jpg">
+              <div class="overlay">
+                <p>Proyecto Countries</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/ManuelPeJu/PI-Henry-Countries" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--Proyecto 2-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto-countries.jpg">
+              <div class="overlay">
+                <p>Proyecto Countries</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/ManuelPeJu/PI-Henry-Countries" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--Proyecto 3-->
+           <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto-countries.jpg">
+              <div class="overlay">
+                <p>Proyecto Countries</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/ManuelPeJu/PI-Henry-Countries" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/ManuelPeJu" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+
+    <!-- Contacto -->
+    
+    <section id="contacto" class="contacto seccion-blanca">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 section-title">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctamente para iniciar tú proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:perezjuradomanuel@gmail.com">
+                <button type="button">
+                  Contacto 
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de página (footer) -->
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="images/Hypers.png" width="100" alt="Logo del Portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-item-center justify-content-center">
+        <a href="https://github.com/ManuelPeJu" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/manuel-pérez-jurado/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:perezjuradomanuel@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">
+        Creado por Manuel Pérez Jurado &#169;
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>    
+</body>
+</html>
